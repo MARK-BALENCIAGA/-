@@ -1,0 +1,50 @@
+{% extends 'layouts/base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <section class="vh-100">
+        <div class="container py-5 h-100">
+            <div class="row d-flex align-items-center justify-content-center h-100">
+                <div class="col-md-8 col-lg-7 col-xl-6 mb-3">
+                    <img src={% static '/assets/img/login.svg' %} class="img-fluid" alt="Phone image">
+                </div>
+                <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1">
+                    <div class="d-flex flex-column justify-content-center mb-4 login-header">
+                        <h2>Welcome to password manager app. To use this app please log in or signup.</h2>
+                    </div>
+                    <form method="POST">
+                        {% csrf_token %}
+
+                        {% if form.non_field_errors %}
+                            {% for error in form.non_field_errors %}
+                                <div class="text-danger mb-3">{{ error }}</div>
+                            {% endfor %}
+                        {% endif %}
+
+                        <!-- Email input -->
+                        <div class="form-floating mb-4">
+                            {{ form.username }}
+                            <label for="floatingInput">Username</label>
+                        </div>
+
+                        <!-- Password input -->
+                        <div class="form-floating mb-4">
+                            {{ form.password }}
+                            <label for="floatingPassword">Password</label>
+                        </div>
+
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-primary btn-lg w-100">Sign In</button>
+
+                        <div class="divider d-flex align-items-center my-3">
+                            <p class="text-center fw-bold mx-3 mb-0 text-muted">OR</p>
+                        </div>
+                    </form>
+                    <a href="{% url 'register-page' %}" class="btn btn-success btn-lg w-100" role="button">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}
