@@ -13,9 +13,6 @@ from home.models import UserPassword
 from home.utils import generate_random_password
 from .models import UserPassword  
 import psycopg2
-import sqlite3
-import mysql.connector
-from mysql.connector import Error
 from psycopg2 import sql
 from django.db import connection
 import logging
@@ -150,104 +147,108 @@ def edit_password(request, pk):
 
 ## NEW
 
-@cache_control(no_cache=True, must_revalidate=True, no_store=True)
-def search(request):
-    if not request.user.is_authenticated:
-        return redirect('%s?next=%s' % ('/', request.path))
-    
-    logged_in_user = request.user
-    logged_in_user_pws = UserPassword.objects.filter(user=logged_in_user)
-    
-    if request.method == "POST":
-        searched = request.POST.get("password_search", "")
-        passwords = []
-
-        config = {
-            'host': '127.0.0.1',         # Укажите адрес хоста
-            'port': '5432',
-            'database': 'database',    # Укажите имя базы данных
-            'user': 'postgres',        # Укажите имя пользователя
-            'password': 'password',    # Укажите пароль
-        }
-
-        # hostname = '127.0.0.1'  # Например, 'localhost' или IP-адрес
-        # port = '5432'      # Обычно 5432 для PostgreSQL
-        # database = 'database'  # Имя вашей базы данных
-        # username = 'postgres'  # Имя пользователя
-        # password = 'password'  # Пароль
-        try:
-            # Подключение к базе данных
-            # connection = psycopg2.connect(
-            #     host=hostname,
-            #     port=port,
-            #     database=database,
-            #     user=username,
-            #     password=password
-            # )
-            connection = mysql.connector.connect(**config)
-            # Создание курсора для выполнения операций с базой данных
-            cursor = connection.cursor()
-            # Формируем небезопасный запрос
-            query = f"SELECT * FROM home_userpassword WHERE (website_name = '{searched}' OR application_name = '{searched}' OR game_name = '{searched}') and user_id = {logged_in_user.id}"
-            print("!!!!! query: ", query)
-            cursor.executescript(query)
-            results = cursor.fetchall()
-
-            # Преобразуем результат в список словарей
-            for row in results:
-                password_entry = {
-                    'id': row[0],
-                    'username': row[1],
-                    'password': row[2],
-                    'application_type': row[3],
-                    'website_name': row[4],
-                    'website_url': row[5],
-                    'application_name': row[6],
-                    'game_name': row[7],
-                    'game_developer': row[8],
-                    'date_created': row[9],
-                    'date_last_updated': row[10],
-                    'user_id': row[11],
-                }
-                passwords.append(password_entry)
-
-        except Exception as error:
-            print(f"Ошибка при подключении к PostgreSQL: {error}")
-        finally:
-            # Закрытие курсора и соединения
-            if cursor is not None:
-                cursor.close()
-            if connection is not None:
-                connection.close()
-                print("Соединение с PostgreSQL закрыто.")
-                print("!!!! passwords ", passwords)
-
-
-        return render(request, "pages/search.html", {'passwords': passwords})
-
-    return render(request, "pages/search.html", {'passwords': logged_in_user_pws})
-
-### OLD
-# # search password 
 # @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 # def search(request):
 #     if not request.user.is_authenticated:
 #         return redirect('%s?next=%s' % ('/', request.path))
+    
 #     logged_in_user = request.user
 #     logged_in_user_pws = UserPassword.objects.filter(user=logged_in_user)
+    
 #     if request.method == "POST":
 #         searched = request.POST.get("password_search", "")
-#         users_pws = logged_in_user_pws.values()
-#         if users_pws.filter(Q(website_name=searched) | Q(application_name=searched) | Q(game_name=searched)):
-#             user_pw = UserPassword.objects.filter(
-#                 Q(website_name=searched) | Q(application_name=searched) | Q(game_name=searched)).values()
-#             print("!!!!!! user_pw", user_pw)
-#             return render(request, "pages/search.html", {'passwords': user_pw})
-#         else:
-#             messages.error(request, "---YOUR SEARCH RESULT DOESN'T EXIST---")
+#         passwords = []
 
 
-#     return render(request, "pages/search.html", {'pws': logged_in_user_pws})
+#         hostname = '127.0.0.1'  # Например, 'localhost' или IP-адрес
+#         port = '5432'      # Обычно 5432 для PostgreSQL
+#         database = 'database'  # Имя вашей базы данных
+#         username = 'postgres'  # Имя пользователя
+#         password = 'password'  # Пароль
+#         try:
+#             # Подключение к базе данных
+#             connection = psycopg2.connect(
+#                 host=hostname,
+#                 port=port,
+#                 database=database,
+#                 user=username,
+#                 password=password
+#             )
+
+#             # Создание курсора для выполнения операций с базой данных
+#             cursor = connection.cursor()
+#             # Формируем небезопасный запрос
+#             # query = f"SELECT * FROM home_userpassword WHERE (website_name = '{searched}' OR application_name = '{searched}' OR game_name = '{searched}') and user_id = {logged_in_user.id}"
+            
+#             params = (searched, logged_in_user.id)
+#             query = """
+#                         SELECT * FROM home_userpassword 
+#                         WHERE website_name = %s 
+#                         AND user_id = %s
+#                     """
+            
+#             print("!!!!! query: ", query)
+#             print("!!!!! params: ", params)
+#             cursor.execute(query, params)
+#             results = cursor.fetchall()
+
+#             # Преобразуем результат в список словарей
+#             for row in results:
+#                 password_entry = {
+#                     'id': row[0],
+#                     'username': row[1],
+#                     'password': row[2],
+#                     'application_type': row[3],
+#                     'website_name': row[4],
+#                     'website_url': row[5],
+#                     'application_name': row[6],
+#                     'game_name': row[7],
+#                     'game_developer': row[8],
+#                     'date_created': row[9],
+#                     'date_last_updated': row[10],
+#                     'user_id': row[11],
+#                 }
+#                 passwords.append(password_entry)
+#         except Exception as error:
+#             print(f"Ошибка при подключении к PostgreSQL: {error}")
+#         finally:
+#             # Закрытие курсора и соединения
+#             if cursor is not None:
+#                 cursor.close()
+#             if connection is not None:
+#                 connection.close()
+#                 print("Соединение с PostgreSQL закрыто.")
+#                 print("!!!! passwords ", passwords)
+
+                
+#         return render(request, "pages/search.html", {'passwords': passwords})
+
+#     return render(request, "pages/search.html", {'passwords': logged_in_user_pws})
+
+### OLD
+# # search password 
+@cache_control(no_cache=True, must_revalidate=True, no_store=True)
+def search(request):
+    if not request.user.is_authenticated:
+        return redirect('%s?next=%s' % ('/', request.path))
+    logged_in_user = request.user
+    logged_in_user_pws = UserPassword.objects.filter(user=logged_in_user)
+    if request.method == "POST":
+        searched = request.POST.get("password_search", "")
+        if searched == "":
+            searched = "!@#&" 
+        if searched == "*":
+            searched = "" 
+        users_pws = logged_in_user_pws.values()
+        if users_pws.filter(Q(website_name=searched) | Q(application_name=searched) | Q(game_name=searched)):
+            user_pw = UserPassword.objects.filter(
+                Q(website_name=searched) | Q(application_name=searched) | Q(game_name=searched)).values()
+            return render(request, "pages/search.html", {'passwords': user_pw})
+        else:
+            messages.error(request, "---YOUR SEARCH RESULT DOESN'T EXIST---")
+
+
+    return render(request, "pages/search.html", {'pws': logged_in_user_pws})
 
 # all passwords
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
