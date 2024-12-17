@@ -2,9 +2,15 @@
 """Django's command-line utility for administrative tasks."""
 import os
 import sys
-
+import logging
 
 def main():
+
+    logging.basicConfig(
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    filename = "mylog.log")
+    
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
     try:

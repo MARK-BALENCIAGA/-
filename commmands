@@ -1,0 +1,14 @@
+docker run -d --name postgres -p 5432:5432 -e POSTGRES_PASSWORD=password postgres
+
+docker exec -it postgres psql -h localhost -U postgres
+
+create database database;
+
+----------------------------------------------------------------------------------------------------
+
+python3 manage.py makemigrations
+python3 manage.py migrate
+
+python3 manage.py createsuperuser
+
+python3 manage.py runserver

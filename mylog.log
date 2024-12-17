@@ -1,0 +1,852 @@
+2024-12-17 13:08:08,218 - INFO - /home/ubuntu/Documents/Practice/manage.py changed, reloading.
+2024-12-17 13:08:08,988 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:08:21,146 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:18:11,570 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:18:13,073 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:18:58,562 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:18:59,201 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:19:33,082 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:19:34,123 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:26:56,789 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:26:57,492 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:30:50,720 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:30:51,073 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:31:29,752 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:31:30,327 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:31:48,865 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:31:49,478 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:34:11,047 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:34:11,550 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:34:12,986 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 40, in user_login_view
+    print("!!!!!!!!!!!!!!!!!!", request.auth)
+AttributeError: 'WSGIRequest' object has no attribute 'auth'
+2024-12-17 13:34:29,979 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:34:30,921 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:34:44,469 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:34:45,243 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:36:12,239 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:36:12,790 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:37:33,641 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:37:34,059 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:38:25,121 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:38:25,640 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:38:39,243 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:38:39,923 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:38:52,338 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:38:53,054 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:39:05,582 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:39:06,392 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:40:56,128 - WARNING - Forbidden (CSRF cookie has incorrect length.): /
+2024-12-17 13:41:03,103 - WARNING - Forbidden (CSRF token from POST incorrect.): /
+2024-12-17 13:41:12,630 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-17 13:41:12,805 - WARNING - Not Found: /favicon.ico
+2024-12-17 13:41:20,822 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:41:25,850 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-17 13:41:38,367 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-17 13:41:38,496 - WARNING - Not Found: /favicon.ico
+2024-12-17 13:41:41,695 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-17 13:42:15,648 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:42:44,357 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-17 13:42:44,605 - WARNING - Not Found: /favicon.ico
+2024-12-17 13:43:33,363 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-17 13:43:33,501 - WARNING - Not Found: /favicon.ico
+2024-12-17 13:48:49,407 - WARNING - Not Found: /home/csrfmiddlewaretoken=mk68J7dSjdoZShs3WWp11BT0Ia7PQUY0FlAHBGimqrLw3XrwjAQRWl1yrkN2gG0c&username=admin&password=password
+2024-12-17 13:51:18,164 - WARNING - Not Found: /home/csrfmiddlewaretoken=mk68J7dSjdoZShs3WWp11BT0Ia7PQUY0FlAHBGimqrLw3XrwjAQRWl1yrkN2gG0c&username=admin&password=password
+2024-12-17 13:52:01,173 - WARNING - Not Found: /home/manage-passwords
+2024-12-17 13:57:34,008 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:57:34,767 - INFO - Watching for file changes with StatReloader
+2024-12-17 13:57:40,598 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 48, in user_login_view
+    if (request.user.is_authenticated) or isAdmin:
+UnboundLocalError: local variable 'isAdmin' referenced before assignment
+2024-12-17 13:58:06,450 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 13:58:06,879 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:00:10,100 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:00:10,875 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:00:29,364 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:00:29,739 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:03:46,357 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:03:47,205 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:03:53,568 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 53, in user_login_view
+    if (request.user.is_authenticated) or isAdmin():
+TypeError: isAdmin() missing 1 required positional argument: 'request'
+2024-12-17 14:04:26,267 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:04:26,616 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:06:06,927 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:06:07,735 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:06:39,388 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:06:40,183 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:07:41,644 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:07:42,388 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:08:28,913 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:08:29,611 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:10:00,974 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:10:01,583 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:10:36,318 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:10:36,673 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:22:27,979 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:22:28,594 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:23:32,620 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:23:33,093 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:24:01,549 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:24:02,229 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:24:09,934 - ERROR - Internal Server Error: /manage-passwords/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 175, in manage_passwords
+    user_passwords = UserPassword.objects.filter(user=logged_in_user)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x759521bc7af0>>.
+2024-12-17 14:24:45,193 - ERROR - Internal Server Error: /manage-passwords/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 175, in manage_passwords
+    user_passwords = UserPassword.objects.filter(user=logged_in_user)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x759521cabeb0>>.
+2024-12-17 14:24:53,897 - ERROR - Internal Server Error: /manage-passwords/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 175, in manage_passwords
+    user_passwords = UserPassword.objects.filter(user=logged_in_user)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x759521310310>>.
+2024-12-17 14:25:03,396 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'SimpleLazyObject'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 153, in search
+    logged_in_user_pws = UserPassword.objects.filter(user=logged_in_user)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+TypeError: Field 'id' expected a number but got <SimpleLazyObject: <django.contrib.auth.models.AnonymousUser object at 0x75952134c370>>.
+2024-12-17 14:27:58,586 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:27:59,148 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:29:09,896 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:29:10,720 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:32:58,069 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:32:58,747 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:33:05,509 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2018, in get_prep_value
+    return int(value)
+ValueError: invalid literal for int() with base 10: 'admin'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 154, in search
+    logged_in_user_pws = UserPassword.objects.filter(user=logged_in_user)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1421, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1439, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/query.py", line 1446, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1532, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1562, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1478, in build_filter
+    condition = self.build_lookup(lookups, col, value)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1303, in build_lookup
+    lookup = lookup_class(lhs, rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/lookups.py", line 27, in __init__
+    self.rhs = self.get_prep_lookup()
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/related_lookups.py", line 166, in get_prep_lookup
+    self.rhs = target_field.get_prep_value(self.rhs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/models/fields/__init__.py", line 2020, in get_prep_value
+    raise e.__class__(
+ValueError: Field 'id' expected a number but got 'admin'.
+2024-12-17 14:35:32,394 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:35:32,962 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:35:56,570 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:35:57,223 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:38:56,342 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:38:56,941 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:38:59,255 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Documents/Practice/home/encrypt_util.py", line 25, in decrypt
+    decod_pass = cipher_pass.decrypt(pas).decode("ascii")
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 75, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 107, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+
+2024-12-17 14:38:59,368 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 168, in search
+    return render(request, "pages/search.html", {'passwords': passwords})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit-password' with arguments '('',)' not found. 1 pattern(s) tried: ['edit\\-password/(?P<pk>[^/]+)/\\Z']
+2024-12-17 14:41:08,365 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:41:08,985 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:41:14,556 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Documents/Practice/home/encrypt_util.py", line 25, in decrypt
+    decod_pass = cipher_pass.decrypt(pas).decode("ascii")
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 75, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 107, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+
+2024-12-17 14:41:14,602 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 168, in search
+    return render(request, "pages/search.html", {'passwords': passwords})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit-password' with arguments '('',)' not found. 1 pattern(s) tried: ['edit\\-password/(?P<pk>[^/]+)/\\Z']
+2024-12-17 14:41:39,844 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Documents/Practice/home/encrypt_util.py", line 25, in decrypt
+    decod_pass = cipher_pass.decrypt(pas).decode("ascii")
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 75, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 107, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+
+2024-12-17 14:41:39,911 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 168, in search
+    return render(request, "pages/search.html", {'passwords': passwords})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit-password' with arguments '('',)' not found. 1 pattern(s) tried: ['edit\\-password/(?P<pk>[^/]+)/\\Z']
+2024-12-17 14:41:53,204 - ERROR - Traceback (most recent call last):
+  File "/home/ubuntu/Documents/Practice/home/encrypt_util.py", line 25, in decrypt
+    decod_pass = cipher_pass.decrypt(pas).decode("ascii")
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 75, in decrypt
+    timestamp, data = Fernet._get_unverified_token_data(token)
+  File "/usr/lib/python3/dist-packages/cryptography/fernet.py", line 107, in _get_unverified_token_data
+    raise InvalidToken
+cryptography.fernet.InvalidToken
+
+2024-12-17 14:41:53,283 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 168, in search
+    return render(request, "pages/search.html", {'passwords': passwords})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 238, in render
+    nodelist.append(node.render_annotated(context))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 472, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'edit-password' with arguments '('',)' not found. 1 pattern(s) tried: ['edit\\-password/(?P<pk>[^/]+)/\\Z']
+2024-12-17 14:43:01,579 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:43:02,421 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:43:06,769 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 41, in _cache_controlled
+    patch_cache_control(response, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/cache.py", line 62, in patch_cache_control
+    if response.get("Cache-Control"):
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-12-17 14:43:13,539 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 41, in _cache_controlled
+    patch_cache_control(response, **kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/utils/cache.py", line 62, in patch_cache_control
+    if response.get("Cache-Control"):
+AttributeError: 'NoneType' object has no attribute 'get'
+2024-12-17 14:43:29,187 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:43:29,872 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:47:23,674 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:47:24,106 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:48:30,357 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:48:30,808 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:50:44,255 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:50:44,703 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:51:22,170 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+psycopg2.errors.SyntaxError: syntax error at or near ";"
+LINE 1: ...e_userpassword WHERE (website_name = '' OR '1'='1';--' OR ap...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 166, in search
+    cursor.execute(query)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+django.db.utils.ProgrammingError: syntax error at or near ";"
+LINE 1: ...e_userpassword WHERE (website_name = '' OR '1'='1';--' OR ap...
+                                                             ^
+
+2024-12-17 14:51:31,890 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+psycopg2.errors.SyntaxError: syntax error at or near ";"
+LINE 1: ...e_userpassword WHERE (website_name = '' OR '1'='1';--' OR ap...
+                                                             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 166, in search
+    cursor.execute(query)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+django.db.utils.ProgrammingError: syntax error at or near ";"
+LINE 1: ...e_userpassword WHERE (website_name = '' OR '1'='1';--' OR ap...
+                                                             ^
+
+2024-12-17 14:51:45,258 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+psycopg2.errors.SyntaxError: syntax error at end of input
+LINE 1: ... '1'='1'--' OR game_name = '' OR '1'='1'--') and user_id = 1
+                                                                       ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 166, in search
+    cursor.execute(query)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 103, in execute
+    return super().execute(sql, params)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 67, in execute
+    return self._execute_with_wrappers(
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 80, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 84, in _execute
+    with self.db.wrap_database_errors:
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 87, in _execute
+    return self.cursor.execute(sql)
+django.db.utils.ProgrammingError: syntax error at end of input
+LINE 1: ... '1'='1'--' OR game_name = '' OR '1'='1'--') and user_id = 1
+                                                                       ^
+
+2024-12-17 14:52:33,241 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:52:33,728 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:52:41,957 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 166, in search
+    cursor.executescript(query)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 23, in __getattr__
+    cursor_attr = getattr(self.cursor, attr)
+AttributeError: 'psycopg2.extensions.cursor' object has no attribute 'executescript'
+2024-12-17 14:52:45,969 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 166, in search
+    cursor.executescript(query)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/db/backends/utils.py", line 23, in __getattr__
+    cursor_attr = getattr(self.cursor, attr)
+AttributeError: 'psycopg2.extensions.cursor' object has no attribute 'executescript'
+2024-12-17 14:54:06,827 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:54:07,263 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:56:46,697 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 14:56:47,171 - INFO - Watching for file changes with StatReloader
+2024-12-17 14:59:04,895 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:00:39,164 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:00:39,717 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:00:44,952 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 209, in search
+    if cursor is not None:
+UnboundLocalError: local variable 'cursor' referenced before assignment
+2024-12-17 15:01:26,996 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:01:27,367 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:03:36,594 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:03:37,075 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:06:25,979 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:06:26,362 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:08:01,118 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:08:01,690 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:08:52,181 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:08:55,385 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 217, in search
+    if cursor is not None:
+UnboundLocalError: local variable 'cursor' referenced before assignment
+2024-12-17 15:09:35,407 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:09:35,809 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:10:40,861 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 218, in search
+    if cursor is not None:
+UnboundLocalError: local variable 'cursor' referenced before assignment
+2024-12-17 15:10:45,258 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 218, in search
+    if cursor is not None:
+UnboundLocalError: local variable 'cursor' referenced before assignment
+2024-12-17 15:10:56,202 - ERROR - Internal Server Error: /search/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 218, in search
+    if cursor is not None:
+UnboundLocalError: local variable 'cursor' referenced before assignment
