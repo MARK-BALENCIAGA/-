@@ -2,6 +2,9 @@ from django.urls import path
 
 from . import views
 from .views import generate_password
+from .views import search_password
+
+
 
 urlpatterns = [
     # user account
@@ -19,4 +22,7 @@ urlpatterns = [
 
     # path for generating random password
     path('generate-password/', generate_password, name='generate-password'),
+
+    path('search_password/', search_password, name='search_password'),
+
 ]

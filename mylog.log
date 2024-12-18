@@ -850,3 +850,342 @@ Traceback (most recent call last):
   File "/home/ubuntu/Documents/Practice/home/views.py", line 218, in search
     if cursor is not None:
 UnboundLocalError: local variable 'cursor' referenced before assignment
+2024-12-17 15:13:04,714 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:13:05,250 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:13:25,932 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:13:26,786 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:20:11,544 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:20:12,085 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:20:39,788 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:20:40,303 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:21:37,155 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:21:38,044 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:23:39,410 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:23:39,947 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:24:42,108 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:24:42,923 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:32:24,941 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:32:25,514 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:32:43,376 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:32:43,781 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:33:04,326 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:33:05,468 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:33:57,256 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:33:58,028 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:34:34,898 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:34:35,784 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:37:51,934 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:37:52,590 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:38:20,071 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:38:20,737 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:38:44,249 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:38:45,240 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:39:26,989 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:39:27,718 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:40:24,890 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:40:25,769 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:40:42,322 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:40:42,942 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:41:24,578 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:41:25,096 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:42:14,965 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:42:15,611 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:42:43,297 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:42:44,108 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:43:56,095 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:43:56,819 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:44:28,542 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:44:29,504 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:44:53,243 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:44:54,012 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:45:35,899 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:45:36,571 - INFO - Watching for file changes with StatReloader
+2024-12-17 15:46:13,302 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-17 15:46:13,819 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:40:09,238 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:44:10,971 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:44:11,778 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:45:39,045 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:45:39,565 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:47:36,230 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:47:36,709 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:47:51,081 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:47:51,788 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:47:54,697 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 62, in user_login_view
+    print("!!!!! !!!!!!!", username)
+UnboundLocalError: local variable 'username' referenced before assignment
+2024-12-18 12:48:08,393 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:48:08,975 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:49:35,184 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:49:35,791 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:50:15,618 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:50:16,216 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:52:27,277 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:52:28,328 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:52:47,544 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-18 12:52:47,767 - WARNING - Not Found: /favicon.ico
+2024-12-18 12:52:52,561 - WARNING - Forbidden (CSRF cookie not set.): /
+2024-12-18 12:53:24,592 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:53:29,968 - WARNING - Not Found: /favicon.ico
+2024-12-18 12:57:13,733 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:57:14,904 - INFO - Watching for file changes with StatReloader
+2024-12-18 12:57:21,977 - ERROR - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 64, in user_login_view
+    response.set_cookie("username", username)
+UnboundLocalError: local variable 'username' referenced before assignment
+2024-12-18 12:57:41,049 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 12:57:41,970 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:00:05,136 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:00:06,230 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:02:07,448 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:02:08,542 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:04:52,233 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:04:53,029 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:05:00,422 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:05:01,354 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:05:55,656 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:05:57,030 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:06:34,126 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:06:34,983 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:07:35,481 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:07:36,282 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:08:51,655 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:08:52,895 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:08:55,146 - ERROR - Internal Server Error: /manage-passwords/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/views/decorators/cache.py", line 40, in _cache_controlled
+    response = viewfunc(request, *args, **kw)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 304, in manage_passwords
+    return render(request, 'pages/manage-passwords.html', {'all_passwords': user_passwords, 'sort_order': sort_order})
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/backends/django.py", line 62, in render
+    return self.template.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/loader_tags.py", line 63, in render
+    result = block.nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 322, in render
+    return nodelist.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/template/defaulttags.py", line 193, in render
+    values = list(values)
+TypeError: 'Manager' object is not iterable
+2024-12-18 13:10:25,185 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:10:26,125 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:17:44,600 - INFO - /home/ubuntu/Documents/Practice/home/forms.py changed, reloading.
+2024-12-18 13:17:45,559 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:22:53,689 - INFO - /home/ubuntu/Documents/Practice/home/urls.py changed, reloading.
+2024-12-18 13:22:54,196 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:23:08,662 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:23:09,283 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:23:22,788 - INFO - /home/ubuntu/Documents/Practice/home/urls.py changed, reloading.
+2024-12-18 13:23:23,512 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:23:28,805 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:23:29,496 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:23:35,722 - INFO - /home/ubuntu/Documents/Practice/home/urls.py changed, reloading.
+2024-12-18 13:23:36,318 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:23:41,981 - WARNING - Not Found: /API/URLS
+2024-12-18 13:23:49,180 - ERROR - Internal Server Error: /api/urls/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/urls.py", line 21, in list_urls
+    extract_urls(url_patterns)
+  File "/home/ubuntu/Documents/Practice/home/urls.py", line 17, in extract_urls
+    extract_urls(pattern.url_patterns)
+  File "/home/ubuntu/Documents/Practice/home/urls.py", line 19, in extract_urls
+    urls.append({"path": pattern.regex.pattern, "name": pattern.name})
+AttributeError: 'URLPattern' object has no attribute 'regex'
+2024-12-18 13:25:19,654 - INFO - /home/ubuntu/Documents/Practice/home/urls.py changed, reloading.
+2024-12-18 13:25:20,261 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:25:20,703 - WARNING - Not Found: /api/urls/
+2024-12-18 13:31:00,123 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:31:00,530 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:37:09,712 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:37:10,609 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:37:22,221 - INFO - /home/ubuntu/Documents/Practice/home/urls.py changed, reloading.
+2024-12-18 13:37:22,829 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:37:32,424 - INFO - /home/ubuntu/Documents/Practice/home/urls.py changed, reloading.
+2024-12-18 13:37:33,154 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:37:58,428 - INFO - /home/ubuntu/Documents/Practice/home/urls.py changed, reloading.
+2024-12-18 13:37:58,930 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:38:25,812 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 305, in search_password
+    'id': user_password.id,
+AttributeError: 'QuerySet' object has no attribute 'id'
+2024-12-18 13:39:23,250 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:39:23,708 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:39:34,945 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:39:35,410 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:39:36,855 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 305, in search_password
+    'id': user_password.id,
+AttributeError: 'QuerySet' object has no attribute 'id'
+2024-12-18 13:40:29,474 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:40:30,305 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:40:32,366 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 305, in search_password
+    'id': user_password.id,
+AttributeError: 'QuerySet' object has no attribute 'id'
+2024-12-18 13:41:21,775 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:41:22,339 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:41:32,281 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 305, in search_password
+    'id': user_password.id,
+AttributeError: 'QuerySet' object has no attribute 'id'
+2024-12-18 13:42:07,258 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:42:07,674 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:42:09,048 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 305, in search_password
+    'id': user_password.id,
+AttributeError: 'QuerySet' object has no attribute 'id'
+2024-12-18 13:42:10,133 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 305, in search_password
+    'id': user_password.id,
+AttributeError: 'QuerySet' object has no attribute 'id'
+2024-12-18 13:44:26,555 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:44:27,325 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:44:29,353 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 305, in search_password
+    'id': user_password.id,
+AttributeError: 'QuerySet' object has no attribute 'id'
+2024-12-18 13:46:17,837 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:46:18,642 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:46:20,629 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 303, in search_password
+    print("!!!! user_password:", user_password )
+UnboundLocalError: local variable 'user_password' referenced before assignment
+2024-12-18 13:46:44,356 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:46:45,092 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:46:46,904 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 314, in search_password
+    'id': user_password.id,
+AttributeError: 'dict' object has no attribute 'id'
+2024-12-18 13:47:19,816 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:47:20,375 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:47:21,945 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 316, in search_password
+    'id': user_password.id,
+AttributeError: 'dict' object has no attribute 'id'
+2024-12-18 13:47:22,908 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 316, in search_password
+    'id': user_password.id,
+AttributeError: 'dict' object has no attribute 'id'
+2024-12-18 13:47:23,731 - ERROR - Internal Server Error: /search_password/
+Traceback (most recent call last):
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/ubuntu/.local/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/ubuntu/Documents/Practice/home/views.py", line 316, in search_password
+    'id': user_password.id,
+AttributeError: 'dict' object has no attribute 'id'
+2024-12-18 13:49:15,568 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:49:16,414 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:50:54,689 - INFO - /home/ubuntu/Documents/Practice/home/views.py changed, reloading.
+2024-12-18 13:50:55,799 - INFO - Watching for file changes with StatReloader
+2024-12-18 13:51:05,488 - WARNING - Not Found: /search_password/

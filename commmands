@@ -14,4 +14,4 @@ python3 manage.py createsuperuser
 python3 manage.py runserver
 
 
-' OR '1'='1
+http://127.0.0.1:8000/search_password/?password_id=3

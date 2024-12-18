@@ -107,3 +107,4 @@ class UpdatePasswordForm(forms.ModelForm):
 
         if application_type == 'Game' and not game_name:
             raise ValidationError({'game_name': 'Game name is required.'})
+

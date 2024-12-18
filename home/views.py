@@ -18,7 +18,7 @@ from django.db import connection
 import logging
 from django.http import HttpResponse
 
-ADMIN = False
+
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -283,8 +283,43 @@ def search(request):
         else:
             messages.error(request, "---YOUR SEARCH RESULT DOESN'T EXIST---")
 
-
     return render(request, "pages/search.html", {'pws': logged_in_user_pws})
+
+
+
+
+
+def search_password(request):
+    # Получаем password_id из параметров запроса
+    password_id = request.GET.get('password_id')
+
+    # Проверяем, что password_id передан и является корректным числом
+    if password_id is None or not password_id.isdigit():
+        return JsonResponse({'error': 'Invalid password_id provided.'}, status=400)
+    print("!!!! password_id", password_id)
+
+    # Пробуем получить объект UserPassword
+    user_password_queryset  = UserPassword.objects.filter(id=password_id).values()
+    print("!!!! user_password_queryset:", user_password_queryset)
+    
+     # Проверяем, есть ли результат
+    if not user_password_queryset.exists():
+        return JsonResponse({'error': 'Password not found.'}, status=404)
+
+    # Извлекаем первый элемент из QuerySet
+    user_password = user_password_queryset.first()
+
+    print("!!!! user_password:", user_password)
+
+    # Извлекаем зашифрованный пароль и расшифровываем его
+    encrypted_password = user_password['password']
+    decrypted_password = decrypt(encrypted_password)
+
+    # Заменяем зашифрованный пароль на расшифрованный в словаре
+    user_password['password'] = decrypted_password
+
+    # Возвращаем JSON-ответ
+    return JsonResponse(user_password)
 
 # all passwords
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
