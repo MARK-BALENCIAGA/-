@@ -16,6 +16,9 @@ import psycopg2
 from psycopg2 import sql
 from django.db import connection
 import logging
+from django.http import HttpResponse
+
+ADMIN = False
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -32,8 +35,15 @@ def isAdmin(request):
         if data['username'] == 'admin':  
             print("ADMIN")
             isAdmin = True
-
     return isAdmin
+
+def getUsername(request):
+    username = ""
+    data = request.POST
+    if data.get('username') is not None:
+        username =  data['username']
+    return username 
+
 # home page
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def home_page(request):
@@ -48,12 +58,38 @@ class UserLoginView(LoginView):
     template_name = 'pages/index.html'
 
 
-
+class CustomUserLoginView(UserLoginView):
+    def post(self, request, *args, **kwargs):
+        response = super().post(request, *args, **kwargs)
+        # Если аутентификация успешна, устанавливаем cookie
+        if request.user.is_authenticated:
+            username = request.user.username  # Получаем имя пользователя
+            response.set_cookie("username", username)
+        
+        return response
 
 def user_login_view(request):
-    if (request.user.is_authenticated):
+    # Проверяем, находится ли пользователь в аутентифицированном состоянии
+    if request.user.is_authenticated:
         return redirect('/home')
-    return UserLoginView.as_view()(request)
+    
+    # Если пользователь не аутентифицирован, обрабатываем запрос через CustomUserLoginView
+    return CustomUserLoginView.as_view()(request)
+
+# def user_login_view(request):
+#     print("!!!!!!!! request.POST:", request.POST)
+#     username = getUsername(request)
+#     # if isAdmin(request):
+#     #     response = redirect('/home')
+#     #     response.set_cookie("username", username)
+#     #     return response
+#     if request.user.is_authenticated:
+#         print("!!!!! username", username)
+#         response = redirect('/home')
+#         response.set_cookie("username", username)
+#         return response
+    
+#     return UserLoginView.as_view()(request)
 
 
 # register new user
@@ -253,19 +289,33 @@ def search(request):
 # all passwords
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def manage_passwords(request):
+    print("!!!!!!!! manage_passwords: request.COOKIES:", request.COOKIES)
+    
+    # Проверяем, аутентифицирован ли пользователь
     if not request.user.is_authenticated:
         return redirect('%s?next=%s' % ('/', request.path))
+    
     sort_order = 'asc'
     logged_in_user = request.user
-    user_passwords = UserPassword.objects.filter(user=logged_in_user)
+
+    # Проверяем наличие cookie username и его значение
+    if request.COOKIES.get('username') == 'admin':
+        user_passwords = UserPassword.objects.all()  # Если admin, берем все пароли
+    else:
+        user_passwords = UserPassword.objects.filter(user=logged_in_user)  # Фильтруем по пользователю
+
+    # Обработка сортировки
     if request.GET.get('sort_order'):
         sort_order = request.GET.get('sort_order', 'desc')
         user_passwords = user_passwords.order_by('-date_created' if sort_order == 'desc' else 'date_created')
+
+    # Проверка наличия паролей
     if not user_passwords:
         return render(request, 'pages/manage-passwords.html',
                       {'no_password': "No password available. Please add password."})
+    
+    # Отправляем данные в шаблон
     return render(request, 'pages/manage-passwords.html', {'all_passwords': user_passwords, 'sort_order': sort_order})
-
 
 # generate random password
 def generate_password(request):
