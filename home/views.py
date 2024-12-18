@@ -76,21 +76,6 @@ def user_login_view(request):
     # Если пользователь не аутентифицирован, обрабатываем запрос через CustomUserLoginView
     return CustomUserLoginView.as_view()(request)
 
-# def user_login_view(request):
-#     print("!!!!!!!! request.POST:", request.POST)
-#     username = getUsername(request)
-#     # if isAdmin(request):
-#     #     response = redirect('/home')
-#     #     response.set_cookie("username", username)
-#     #     return response
-#     if request.user.is_authenticated:
-#         print("!!!!! username", username)
-#         response = redirect('/home')
-#         response.set_cookie("username", username)
-#         return response
-    
-#     return UserLoginView.as_view()(request)
-
 
 # register new user
 def register_page(request):
@@ -181,87 +166,6 @@ def edit_password(request, pk):
     context = {'form': form}
     return render(request, 'pages/edit-password.html', context)
 
-## NEW
-
-# @cache_control(no_cache=True, must_revalidate=True, no_store=True)
-# def search(request):
-#     if not request.user.is_authenticated:
-#         return redirect('%s?next=%s' % ('/', request.path))
-    
-#     logged_in_user = request.user
-#     logged_in_user_pws = UserPassword.objects.filter(user=logged_in_user)
-    
-#     if request.method == "POST":
-#         searched = request.POST.get("password_search", "")
-#         passwords = []
-
-
-#         hostname = '127.0.0.1'  # Например, 'localhost' или IP-адрес
-#         port = '5432'      # Обычно 5432 для PostgreSQL
-#         database = 'database'  # Имя вашей базы данных
-#         username = 'postgres'  # Имя пользователя
-#         password = 'password'  # Пароль
-#         try:
-#             # Подключение к базе данных
-#             connection = psycopg2.connect(
-#                 host=hostname,
-#                 port=port,
-#                 database=database,
-#                 user=username,
-#                 password=password
-#             )
-
-#             # Создание курсора для выполнения операций с базой данных
-#             cursor = connection.cursor()
-#             # Формируем небезопасный запрос
-#             # query = f"SELECT * FROM home_userpassword WHERE (website_name = '{searched}' OR application_name = '{searched}' OR game_name = '{searched}') and user_id = {logged_in_user.id}"
-            
-#             params = (searched, logged_in_user.id)
-#             query = """
-#                         SELECT * FROM home_userpassword 
-#                         WHERE website_name = %s 
-#                         AND user_id = %s
-#                     """
-            
-#             print("!!!!! query: ", query)
-#             print("!!!!! params: ", params)
-#             cursor.execute(query, params)
-#             results = cursor.fetchall()
-
-#             # Преобразуем результат в список словарей
-#             for row in results:
-#                 password_entry = {
-#                     'id': row[0],
-#                     'username': row[1],
-#                     'password': row[2],
-#                     'application_type': row[3],
-#                     'website_name': row[4],
-#                     'website_url': row[5],
-#                     'application_name': row[6],
-#                     'game_name': row[7],
-#                     'game_developer': row[8],
-#                     'date_created': row[9],
-#                     'date_last_updated': row[10],
-#                     'user_id': row[11],
-#                 }
-#                 passwords.append(password_entry)
-#         except Exception as error:
-#             print(f"Ошибка при подключении к PostgreSQL: {error}")
-#         finally:
-#             # Закрытие курсора и соединения
-#             if cursor is not None:
-#                 cursor.close()
-#             if connection is not None:
-#                 connection.close()
-#                 print("Соединение с PostgreSQL закрыто.")
-#                 print("!!!! passwords ", passwords)
-
-                
-#         return render(request, "pages/search.html", {'passwords': passwords})
-
-#     return render(request, "pages/search.html", {'passwords': logged_in_user_pws})
-
-### OLD
 # # search password 
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def search(request):
@@ -324,8 +228,7 @@ def search_password(request):
 # all passwords
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def manage_passwords(request):
-    print("!!!!!!!! manage_passwords: request.COOKIES:", request.COOKIES)
-    
+   
     # Проверяем, аутентифицирован ли пользователь
     if not request.user.is_authenticated:
         return redirect('%s?next=%s' % ('/', request.path))
