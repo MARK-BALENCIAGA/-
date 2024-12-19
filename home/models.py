@@ -3,7 +3,7 @@ from django.db import models
 
 User = get_user_model()
 
-
+# Ограничение полей для хранения информации о паролях
 class UserPassword(models.Model):
     username = models.CharField(max_length=100)
     password = models.CharField(max_length=500)

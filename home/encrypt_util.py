@@ -4,7 +4,7 @@ import logging
 import traceback
 from django.conf import settings
 
-
+# Функция шифрования пароля
 def encrypt(pas):
     try:
         pas = str(pas)
@@ -16,7 +16,7 @@ def encrypt(pas):
         logging.getLogger("error_logger").error(traceback.format_exc())
         return None
 
-
+# Функция дешифровки пароля
 def decrypt(pas):
     print("here at decrypt", pas)
     try:

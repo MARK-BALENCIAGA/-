@@ -8,7 +8,7 @@ from home.models import UserPassword
 
 
 class RegistrationForm(UserCreationForm):
-    # class to create new user
+    # Форма регистрации пользователя
     password1 = forms.CharField(
         label=_("Password"),
         widget=forms.PasswordInput(
@@ -23,7 +23,6 @@ class RegistrationForm(UserCreationForm):
     class Meta:
         model = User
         fields = ('username', 'email',)
-
         widgets = {
             'username': forms.TextInput(attrs={
                 'class': 'form-control',
@@ -37,6 +36,7 @@ class RegistrationForm(UserCreationForm):
 
 
 class LoginForm(AuthenticationForm):
+    # Форма авторизации пользователя
     username = UsernameField(label=_("Your Username"),
                              widget=forms.TextInput(attrs={"class": "form-control", "placeholder": "Username"}))
     password = forms.CharField(
@@ -48,6 +48,7 @@ class LoginForm(AuthenticationForm):
 
 class UpdatePasswordForm(forms.ModelForm):
     class Meta:
+        # Форма управление паролями пользователя
         model = UserPassword
         fields = ['id', 'username', 'password', 'application_type', 'website_name', 'website_url', 'application_name',
                   'game_name', 'game_developer']
@@ -89,6 +90,7 @@ class UpdatePasswordForm(forms.ModelForm):
         }
 
     def clean(self):
+        # Функция удаления паролей и валидации введенных данных
         cleaned_data = super().clean()
         application_type = cleaned_data.get('application_type')
         application_name = cleaned_data.get('application_name')

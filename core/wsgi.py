@@ -1,10 +1,5 @@
 """
-WSGI config for core project.
-
-It exposes the WSGI callable as a module-level variable named ``application``.
-
-For more information on this file, see
-https://docs.djangoproject.com/en/4.1/howto/deployment/wsgi/
+Конфигурация wsgi для запуска сервиса
 """
 
 import os
