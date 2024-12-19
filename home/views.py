@@ -26,6 +26,7 @@ logging.basicConfig(
     filename = "mylog.log"
 )
     
+# Проверка является ли пользователь администратором
 def isAdmin(request):
     print("!!!!!!!! request.POST:", request.POST)
     data = request.POST
@@ -37,6 +38,7 @@ def isAdmin(request):
             isAdmin = True
     return isAdmin
 
+# Функция получения usrname пользователя из cookie
 def getUsername(request):
     username = ""
     data = request.POST
@@ -166,7 +168,7 @@ def edit_password(request, pk):
     context = {'form': form}
     return render(request, 'pages/edit-password.html', context)
 
-# # search password 
+# search password 
 @cache_control(no_cache=True, must_revalidate=True, no_store=True)
 def search(request):
     if not request.user.is_authenticated:
